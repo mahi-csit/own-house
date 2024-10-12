@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prudhvi House Tracker</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <button id="details-button" onclick="window.location.href='details.html'">Details</button>
+    <h1>Prudhvi House Tracker</h1>
+    <div class="event-tracker">
+        <h2>Events</h2>
+        <ul id="event-list"></ul>
+        <input type="text" id="event-name-input" placeholder="Event Name">
+        <input type="number" id="event-points-input" placeholder="Points">
+        <button onclick="addEvent()">Add Event</button>
+    </div>
+    <div class="points-tracker">
+        <h2>Total Points</h2>
+        <p><span id="total-points">0</span></p>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
